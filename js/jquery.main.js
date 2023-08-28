@@ -14,14 +14,11 @@ window.addEventListener("load", () => {
 	isElementExist(".articles-carousel", sliderAnimationReset);
 	addBoxLine();
 	hidePreloader();
-	initAnimations();
-	console.log(window.scrollY)
-	console.log(document.querySelector('.info-slider').getBoundingClientRect().top)
 
 	setTimeout(() => {
-		console.log(window.scrollY)
-		console.log(document.querySelector('.info-slider').getBoundingClientRect().top)
-	}, 1000)
+		console.log('test');
+		initAnimations();
+	}, 200)
 });
 
 //-------- -------- -------- --------
