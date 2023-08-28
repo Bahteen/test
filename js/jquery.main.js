@@ -16,9 +16,9 @@ window.addEventListener("load", () => {
 	hidePreloader();
 
 	setTimeout(() => {
-		console.log('test');
+		console.log('test-1');
 		initAnimations();
-	}, 200)
+	})
 });
 
 //-------- -------- -------- --------
