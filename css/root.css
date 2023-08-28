@@ -1,0 +1,114 @@
+:root {
+	--rem-base: 10px;
+	--base-font-size: 16px;
+	--base-line-height: 1.5;
+	--vertical-rhythm: calc(var(--base-line-height) * 1em);
+	--p2-font-size: 24px;
+	--p2-line-height: 1.5;
+	--p3-font-size: 24px;
+	--p3-line-height: 1.13;
+	--p4-font-size: 16px;
+	--p4-line-height: 1.25;
+	--quote-font-size: 40px;
+	--quote-line-height: 1.13;
+	--quote-sm-font-size: 32px;
+	--quote-sm-line-height: 1.13;
+	--font-yellix: "Yellix";
+	--font-reckless: "Reckless Neue";
+	--base-main-font: var(--font-reckless);
+	--base-font-sans-serif: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	--base-font-serif: "Times New Roman", "Times", "Baskerville", "Georgia", serif;
+	--base-font: var(--base-main-font), var(--base-font-serif);
+	--accent-font: var(--font-yellix), var(--base-font-sans-serif);
+	--color-black: #0a211a;
+	--color-white: #fff;
+	--color-gray: #f5f5f5;
+	--color-gray-100: #c4ccc9;
+	--color-gray-200: #677976;
+	--color-blue: #12abcf;
+	--color-gold: #faab3d;
+	--color-green: #0ac985;
+	--color-red: #ed544a;
+	--brand-color: var(--color-green);
+	--accent-color: var(--color-blue);
+	--base-text-color: var(--color-black);
+	--base-link-color: currentColor;
+	--h1-h6-color: currentColor;
+	--animation-duration: 0.3s;
+	--animation-timing-function: ease;
+	--container: 1280px;
+	--gutter: 80px;
+	--input-x: 20px;
+	--input-y: 10px;
+	--input-color: var(--color-black);
+	--input-placeholder-color: var(--color-gray-200);
+	--input-bg-color: transparent;
+	--input-radius: 0;
+	--input-border: 1px;
+	--input-border-color: var(--color-gray-100);
+	--input-focus-border-color: var(--color-green);
+	--input-fz: 18px;
+	--input-lh: 1.1;
+	--form-theme-color: var(--brand-color);
+	--checkbox-size: 30px;
+	--radio-size: 30px;
+	--label-fz: 18px;
+	--label-color: currentColor;
+	--error-color: var(--color-red);
+	--error-bg-color: var(--color-red);
+	--form-col-gutter: 30px;
+	--form-row-margin: var(--form-col-gutter) * 1.5;
+	--h1: 72px;
+	--h2: 60px;
+	--h3: 40px;
+	--h4: 24px;
+	--h5: 14px;
+	--h6: 12px;
+}
+@media (max-width: 1365px) {
+	:root {
+		--h1: 64px;
+		--h2: 56px;
+		--h3: 40px;
+		--h4: 24px;
+		--h5: 14px;
+		--h6: 12px;
+	}
+}
+@media (max-width: 1199px) {
+	:root {
+		--gutter: 20px;
+	}
+	:root {
+		--h1: 56px;
+		--h2: 48px;
+		--h3: 34px;
+		--h4: 24px;
+		--h5: 14px;
+		--h6: 12px;
+	}
+}
+@media (max-width: 1023px) {
+	:root {
+		--p2-font-size: 20px;
+		--p3-font-size: 20px;
+		--p3-line-height: 1.25;
+		--quote-font-size: 28px;
+		--quote-sm-font-size: 28px;
+	}
+}
+@media (max-width: 767px) {
+	:root {
+		--h1: 48px;
+		--h2: 42px;
+		--h3: 28px;
+		--h4: 20px;
+		--h5: 14px;
+		--h6: 12px;
+	}
+}
+@media (min-width: 812px) and (max-height: 414px) and (orientation: landscape) {
+	:root {
+		--gutter: 50px;
+	}
+}
