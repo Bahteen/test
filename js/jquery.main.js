@@ -16,9 +16,8 @@ window.addEventListener("load", () => {
 	hidePreloader();
 
 	setTimeout(() => {
-		console.log('test-1');
 		initAnimations();
-	})
+	}, 100);
 });
 
 //-------- -------- -------- --------
@@ -240,10 +239,11 @@ function initSplitText() {
 
 	rowsElements.forEach(item => {
 		const strong = item.querySelector('strong');
+		const isCtaSectionStrong = item.closest('.cta');
 
 		splitText(item, "split-text-row fade-in");
 
-		if (strong) {
+		if (strong && !isCtaSectionStrong) {
 			splitText(strong, "split-text-row");
 			const strongRows = strong.querySelectorAll(".split-text-row");
 
