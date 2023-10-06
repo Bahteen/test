@@ -7,6 +7,7 @@ jQuery(function () {
 	isElementExist(".filters", initFilters);
 	isElementExist(".team-tabset", initTabs);
 	jcfInit();
+	console.log(window.innerHeight, window.outerHeight);
 });
 
 window.addEventListener("load", () => {
